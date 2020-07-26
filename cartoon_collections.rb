@@ -29,4 +29,5 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   #find - first element to satisfy the condition.
   planeteer_calls.find{|string| string == "Earth!" || string == "Wind!" || string == "Fire!" || string == "Water!" || string =="Heart!"}
+  
 end
