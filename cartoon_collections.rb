@@ -18,7 +18,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   #any?: Did anything "tested" by the block returns truthy
   new = planeteer_calls.any? { |string| string.length > 4 }
-  puts new
+
   
 end
 
